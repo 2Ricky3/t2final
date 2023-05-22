@@ -1,0 +1,60 @@
+.block{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    width: 95%;
+    height: 95%;
+    background-color:rgb(182, 114, 51);
+    border-radius: 40px;
+}
+.logo{
+margin-left: 2%;
+margin-top: 2%;
+}
+.Home{
+    margin-left: 30%;
+    display: flex;
+   margin-top: -100px;
+}
+.Home h4{
+    padding: 50px;
+  font-size: 16px;
+}
+.circle{
+margin-left: 10%;
+margin-top: -15%;
+background-color: white;
+border-radius: 100%;
+height: 40%;
+width: 20%;
+}
+.circle img{
+    margin-left: 18%;
+    margin-top: 16%;
+}
+.text{
+margin-left: 50%;
+margin-top: 10%;
+
+
+}
+.button{
+background-color:rgb(255, 153, 51);
+color: black;
+width: 100px;
+height: 30px;
+text-align: center;
+padding-top: 3px;
+padding-bottom: 2px;
+border-radius: 8px;
+position: relative;
+border-color:black ;
+font-size: 14px ;
+text-decoration: none;
+}
+.button:hover{
+background-color: rgb(240, 121, 10);
+color: black;
+text-decoration: none;
+
+}

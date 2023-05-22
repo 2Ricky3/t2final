@@ -1,0 +1,61 @@
+form{
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 50px;
+    background-color: rgb(182, 114, 51);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+   
+}
+
+input{
+    margin-top: 15px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+    color: black;
+    background-color:rgb(255, 153, 51);
+    border-color: rgb(255, 153, 51);
+}
+.btn:hover{
+background-color: rgb(240, 121, 10);
+border-color: rgb(240, 121, 10);
+
+
+}
+.base-options{
+    width: 33%;
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.base-options h3{
+   margin-left:  -20px;
+   margin-bottom: 20px;
+}
+
+.toppings{
+    width: 66%;
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.toppings h3{
+    margin-left:  -20px;
+    margin-bottom: 20px;
+}
+
+.top-check{
+    width: 33%;
+    float: left;
+}

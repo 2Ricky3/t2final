@@ -3,7 +3,6 @@ let size = document.getElementById("size").value;
 let allcheckboxes = document.getElementsByClassName("toppings")
 let checkboxes = document.getElementsByName("toppings")
 let finaltotal = document.getElementById("finaltotal")
-console.log(checkboxes);
 let total = 0
 for (let i = 0; i < checkboxes.length; i++) {
   let checkboxvalues = checkboxes[i].checked;
@@ -11,7 +10,8 @@ for (let i = 0; i < checkboxes.length; i++) {
     if (checkboxvalues){
  total += parseInt(checkboxes[i].value) 
     }
-
-} console.log(total)
-finaltotal.textContent = "Total: R " + total
+} 
+finaltotal.textContent = parseInt(total) + parseInt(size)
+sessionStorage.setItem("Final Total",parseInt(total) + parseInt(size) )
 }
+ 

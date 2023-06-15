@@ -1,4 +1,4 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
 
@@ -21,12 +21,12 @@
   
     <form>
       <img width="80" src="/assets/—Pngtree—food logo_8239850.png">
-      <h3>Make your Sandwich!</h3>
+      <h1>Make your Sandwich!</h1>
       <select class="form-control" id="size" id="size">
-        <option value="0">Choose a Size</option>
-        <option value="6">6 Inch</option>
-        <option value="12">8 Inch</option>
-        <option value="15">Foot Long</option>
+        <option value=0>Choose a Size</option>
+        <option value=15>6 Inch</option>
+        <option value=30>8 Inch</option>
+        <option value=50>Foot Long</option>
       </select>
 
 
@@ -116,13 +116,23 @@
           </div>
           </div>
 
-          <div class="total" id="finaltotal">
-Total:
+          <div class="total">
+<div class="parent">
+  <div class="Childone"><b>Total: R</b></div>
+<div class="ChildTwo" id="finaltotal"></div>
 
           </div>
-
-          <button class="btn btn-primary" type="button" onclick="CreateSandwich()">Build!</button>    
-          <button class="btn btn-primary" type="button" onclick="CreateSandwich()"><a href="checkout.html">Checkout!</a></button>   
+          <div>
+            <button class="btn btn-primary" type="button" onclick="CreateSandwich()">
+             Build! 
+            </button>
+            </div>  
+            <div>
+              <button class="btn btn-primary" type="button" onclick="CreateSandwich()">
+                <a href="checkout.html">Checkout!</a>
+              </button>
+              </div> 
+           
   </form>
     
   </body>
